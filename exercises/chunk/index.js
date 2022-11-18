@@ -25,6 +25,7 @@ function chunk(array, size) {
   return result;
 }
 
+// best solution:
 function chunk1(array, size) {
   const result = [];
   let index = 0;
